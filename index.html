@@ -1,1 +1,101 @@
-hi
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SaveTheirSouls</title>
+    <link href="payment-form.css" rel="stylesheet">
+    <link href="https://api.authorize.net/xml/v1/schema/AnetApiSchema.xsd">
+    <link href="https://i.pinimg.com/originals/94/13/c7/9413c73e289e1d2f7a4a502fcfe818c5.png" rel="shortcut icon">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  </head>
+  <body>
+     <div>
+       <h1>Organizations</h1>
+        <p id="p">Pick a Category</p>
+         <ul class="type">
+           <li id="crime"class="organization-type">Crime Relief</li>
+             <select id="clist"style="position:relative;left:20px;display:none">
+               <option></option>
+               <option>Police Protective Fund</option>
+               <option class="backend">UNICEF</option>
+               <option>Citizens Against Crime Committee</option>
+               <option>Crime Tipline</option>
+             </select>
+           <li id="disaster"class="organization-type">Natural Disaster Relief</li>
+           <select id="dlist"style="position:relative;left:20px;display:none">
+             <option></option>
+             <option>American Red Cross</option>
+             <option>Angel by Nature</option>
+             <option>ICNA</option>
+             <option>Hurricane Michael</option>
+             <option>Hurricane Harvey Relief Fund</option>
+             <option>Hurricane Florence</option>
+           </select>
+           <li id="road"class="organization-type">Road Accidents</li>
+           <select id="rlist"style="position:relative;left:20px;display:none">
+             <option></option>
+             <option>Road Peace</option>
+             <option>Road Victims Trust</option>
+             <option>AAA</option>
+           </select>
+           <li id="fire"class="organization-type">Fire Incidents</li>
+           <select id="flist"style="position:relative;left:20px;display:none">
+             <option></option>
+             <option>Hickory Whithe Fire Department</option>
+             <option>Network for Good</option>
+             <option>United Way of Northern California</option>
+           </select>
+         </ul>
+         <button id="next">Next</button>
+     </div>
+<section style="display:none">
+  <h1>Payment information</h1>
+  <p>
+    <label for="card">Card type:</label>
+    <select id="card" style="border-radius: 10px;
+    width: 146px">
+      <option value="Visa">Visa</option>
+      <option value="Mastercard">Mastercard</option>
+      <option value="American Express">American Express</option>
+    </select>
+  </p>
+  <p>
+    <label for="number">Card number:<strong>*</strong></label>
+    <input type="number" id="number" style="width:170px;border-radius:3px" autocomplete="off"><label id="label" style="display:none"> - must contain 16 digits</label>
+  </p>
+  <p>
+    <label for="date">Expiration date:<strong>*</strong>
+    </label>
+    <select id="month" value="">
+          <option>01</option>
+          <option>02</option>
+          <option>03</option>
+          <option>04</option>
+          <option>05</option>
+          <option>06</option>
+          <option>07</option>
+          <option>08</option>
+          <option>09</option>
+          <option>10</option>
+          <option>11</option>
+          <option>12</option>
+    </select>
+    <select id="year" value="">
+      <option>19</option>
+      <option>20</option>
+      <option>21</option>
+      <option>22</option>
+      <option>23</option>
+   </select>
+  </p>
+  <p>
+    <label for="amount">Amount:<strong>*</strong></label>
+    <input type="text" id="amount" style="width:80px"><label>$</label>
+  </p>
+  <button id="submit">submit</button>
+</section>
+
+
+<script src="script.js"></script>
+  </body>
+</html>
