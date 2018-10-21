@@ -1,150 +1,153 @@
-body {
-  color: white;
-  background-color: #101010;
-  background-image: url("iphone post.jpg");
-  font-family: monospace, fantasy,'Helvetica Neue', Arial, sans-serif;
-  width: fit-content;
-}
-@-ms-viewport {
-  width: device-width ;
-}
-h1 {
-    margin: 0;
-    margin-bottom: 2px;
-    font-family: monospace;
-    color: #E76C07;
-    position: absolute;
-    left: px;
-    top: 10px;
-}
 
-ul {
-    margin: 0px;
-    margin-bottom: 2px;
-    padding: 0;
-    background-color: rgba(0,0,0,0.6);
-    font-family: monospace;
+  body {
+    color: white;
+    background-color: #101010;
+    background-image: url("iphone post.jpg");
+    background-size: 481px;
+    font-family: monospace, fantasy,'Helvetica Neue', Arial, sans-serif;
     width: fit-content;
-    list-style: none;
+  }
+  @-ms-viewport {
+    width: device-width ;
+  }  
+  
+  h1 {
+      margin: 0;
+      margin-bottom: 2px;
+      font-family: monospace;
+      color: #E76C07;
+      position: absolute;
+      left: px;
+      top: 10px;
+  }
+  
+  ul {
+      margin: 0px;
+      margin-bottom: 2px;
+      padding: 0;
+      background-color: rgba(0,0,0,0.6);
+      font-family: monospace;
+      width: fit-content;
+      list-style: none;
+      cursor: pointer;
+      position: absolute;
+      left: 100px;
+      top: 120px;
+  }
+  
+  li {
     cursor: pointer;
-    position: absolute;
-    left: 100px;
-    top: 120px;
-}
-
-li {
-  cursor: pointer;
-  margin: 10px;
-  font-family: monospace;
-}
-
-#div {
-  position: relative;
-  left: 50%;
-}
-
-label span {
-    display: inline-block;
-    width: 120px;
-    text-align: right;
-}
-
-input{
-  border: none;
-  border-bottom: solid 1px white;
-  background: transparent;
-  outline-width: 0;
-  font-size: 16px;
-  color: white;
-}
-
-button {
-  margin: 240px 0 0 600px;
-  border-radius: 1px;
-  font-family: monospace;
-  font-weight: inherit;
-  background-color: #E76C07;
-  cursor: pointer;
-  border-style: dashed;
-  outline-width: 0;
-  height: 60px;
-  width: 140px;
-  font-size: x-large;
-}
-
-/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
-
-section {
-  position: relative;
-  left: 50px;
-  top: 100px;
-}
-
-.organization-type {
-  border-style: groove;
-  padding: 4px;
-  margin: 10px;
-  font-family: monospace;
-  font-size: medium;
-  width: fit-content;
-}
-
-#next {
-  position: relative;
-  left: 490px;
-  margin: 0;
-  margin-top: 30px;
-  top: 120px;
-}
-
-#submit {
-  position: relative;
-  left: 0px;
-  top: 50px;
-}
-
-select {
-    border-radius: 4px;
-    width: fit-content;
-    border-color: rgb(255, 255, 255);
-    background-color: rgb(209, 109, 28);
-    outline-width: 0;
-}
-
-p {
-    position: relative;
-    margin-right: 5px;
+    margin: 10px;
     font-family: monospace;
-    top: 45px;
-    /* text-align: left; */
-    left: 30px;
-}
-
-#p {
-  position: relative;
-  background-color: rgba(0,0,0,0.6);
-  top: 90px;
-  left: 450px;
-  font-family: monospace;
-  font-size: x-large;
-}
-
-#label {
-  font-family: monospace;
-    margin-left: 5px;
-}
-
-#payment {
-	color: white;
-	font-family: monospace;
-	text-align: center;
-	position: relative;
-}
-
-#bg {
-	background-color: rgba(0,0,0,0.6);
-	position: relative;
-	left: 450px;
-	width: 350px;
-	height: 300px;
-}
+  }
+  
+  #div {
+    position: relative;
+    left: 50%;
+  }
+  
+  label span {
+      display: inline-block;
+      width: 120px;
+      text-align: right;
+  }
+  
+  input{
+    border: none;
+    border-bottom: solid 1px white;
+    background: transparent;
+    outline-width: 0;
+    font-size: 16px;
+    color: white;
+  }
+  
+  button {
+    margin: 240px 0 0 600px;
+    border-radius: 1px;
+    font-family: monospace;
+    font-weight: inherit;
+    background-color: #E76C07;
+    cursor: pointer;
+    border-style: dashed;
+    outline-width: 0;
+    height: 60px;
+    width: 140px;
+    font-size: x-large;
+  }
+  
+  /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  section {
+    position: relative;
+    left: 50px;
+    top: 100px;
+  }
+  
+  .organization-type {
+    border-style: groove;
+    padding: 4px;
+    margin: 10px;
+    font-family: monospace;
+    font-size: medium;
+    width: fit-content;
+  }
+  
+  #next {
+    position: relative;
+    left: 490px;
+    margin: 0;
+    margin-top: 30px;
+    top: 120px;
+  }
+  
+  #submit {
+    position: relative;
+    left: 0px;
+    top: 50px;
+  }
+  
+  select {
+      border-radius: 4px;
+      width: fit-content;
+      border-color: rgb(255, 255, 255);
+      background-color: rgb(209, 109, 28);
+      outline-width: 0;
+  }
+  
+  p {
+      position: relative;
+      margin-right: 5px;
+      font-family: monospace;
+      top: 45px;
+      /* text-align: left; */
+      left: 30px;
+  }
+  
+  #p {
+    position: relative;
+    background-color: rgba(0,0,0,0.6);
+    top: 90px;
+    left: 450px;
+    font-family: monospace;
+    font-size: x-large;
+  }
+  
+  #label {
+    font-family: monospace;
+      margin-left: 5px;
+  }
+  
+  #payment {
+    color: white;
+    font-family: monospace;
+    text-align: center;
+    position: relative;
+  }
+  
+  #bg {
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+    left: 450px;
+    width: 350px;
+    height: 300px;
+  }
