@@ -2,16 +2,17 @@ body {
   color: white;
   background-color: #101010;
   background-image: url("iphone post.jpg");
-  font-family: fantasy;
+  font-family: monospace, fantasy,'Helvetica Neue', Arial, sans-serif;
   width: fit-content;
 }
 
 h1 {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
+    font-family: monospace;
     color: #E76C07;
     position: absolute;
-    left: 200px;
+    left: px;
     top: 10px;
 }
 
@@ -19,7 +20,8 @@ ul {
     margin: 0px;
     margin-bottom: 2px;
     padding: 0;
-    font-family: fantasy;
+    background-color: rgba(0,0,0,0.6);
+    font-family: monospace;
     width: fit-content;
     list-style: none;
     cursor: pointer;
@@ -31,17 +33,10 @@ ul {
 li {
   cursor: pointer;
   margin: 10px;
+  font-family: monospace;
 }
 
-form {
-    margin: 0 auto;
-    width: 400px;
-    padding: 1em;
-    border: 1px solid #CCC;
-    border-radius: 1em;
-}
-
-div {
+#div {
   position: relative;
   left: 50%;
 }
@@ -61,32 +56,18 @@ input{
   color: white;
 }
 
-fieldset {
-    width: 250px;
-    box-sizing: border-box;
-    margin-left: 136px;
-    border: 1px solid #999;
-}
-
 button {
-    margin: 20px 0 0 124px;
-    border-radius: 2.5px;
-    font-family: monospace;
-    font-weight: inherit;
-    background-color: #E76C07;
-    cursor: pointer;
-    border-style: outset;
-    outline-width: 0;
-}
-
-label {
-  position: relative;
-}
-
-label em {
-  position: absolute;
-  right: 5px;
-  top: 20px;
+  margin: 240px 0 0 600px;
+  border-radius: 1px;
+  font-family: monospace;
+  font-weight: inherit;
+  background-color: #E76C07;
+  cursor: pointer;
+  border-style: dashed;
+  outline-width: 0;
+  height: 60px;
+  width: 140px;
+  font-size: x-large;
 }
 
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -101,7 +82,7 @@ section {
   border-style: groove;
   padding: 4px;
   margin: 10px;
-  font-family: sans-serif;
+  font-family: monospace;
   font-size: medium;
   width: fit-content;
 }
@@ -116,7 +97,8 @@ section {
 
 #submit {
   position: relative;
-    left: 410px;
+  left: 0px;
+  top: 50px;
 }
 
 select {
@@ -129,14 +111,18 @@ select {
 
 p {
     position: relative;
-    left: 450px;
     margin-right: 5px;
+    font-family: monospace;
+    top: 45px;
+    /* text-align: left; */
+    left: 30px;
 }
 
 #p {
   position: relative;
-  top: 120px;
-  left: 550px;
+  background-color: rgba(0,0,0,0.6);
+  top: 90px;
+  left: 450px;
   font-family: monospace;
   font-size: x-large;
 }
@@ -144,4 +130,19 @@ p {
 #label {
   font-family: monospace;
     margin-left: 5px;
+}
+
+#payment {
+	color: white;
+	font-family: monospace;
+	text-align: center;
+	position: relative;
+}
+
+#bg {
+	background-color: rgba(0,0,0,0.6);
+	position: relative;
+	left: 450px;
+	width: 350px;
+	height: 300px;
 }

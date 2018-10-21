@@ -9,7 +9,7 @@
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
   </head>
   <body>
-     <div>
+     <div id="div">
         <p id="p">Pick a Category...</p>
          <ul class="type">
            <li id="crime"class="organization-type">Crime Relief</li>
@@ -45,10 +45,12 @@
              <option>United Way of Northern California</option>
            </select>
          </ul>
-         <button id="next">Next</button>
+         <button id="Next">Click To Donate</button>
      </div>
 <section style="display:none">
-  <h1>Payment information</h1>
+  
+  <div id="bg" style="display:block">
+    <h1 id="payment">Payment information</h1>
   <p>
     <label for="card">Card type:</label>
     <select id="card" style="border-radius: 10px;
@@ -92,6 +94,8 @@
     <input type="text" id="amount" style="width:80px"><label>$</label>
   </p>
   <button id="submit">submit</button>
+  </div>
+  
 </section>
 
 

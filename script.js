@@ -10,7 +10,7 @@ var amount = document.querySelector('#amount');
 var month = document.querySelector('#month');
 var year = document.querySelector('#year');
 
-var div = document.querySelector('div');
+var div = document.querySelector('#div');
 var crime = document.querySelector('#crime');
 var clist = document.querySelector('#clist'); //don't need this line to toggle list but to have future reference to it outside of jquery
 crime.onclick = function(){
@@ -39,7 +39,7 @@ next.onclick = function() {
   if(clist.value !== '' || dlist.value !== '' || rlist.value !== '' || flist.value !== ''){
     //display payment information
     //technically, in the background, the http should be ready to send the information to the desired organization
-    $('div').toggle();
+    $('#div').toggle();
     $('section').toggle();
   }
   else {
