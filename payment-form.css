@@ -10,8 +10,8 @@ h1 {
     margin: 0;
     margin-bottom: 10px;
     color: #E76C07;
-    position: relative;
-    left: 450px;
+    position: absolute;
+    left: 200px;
     top: 10px;
 }
 
@@ -24,7 +24,7 @@ ul {
     list-style: none;
     cursor: pointer;
     position: absolute;
-    left: 550px;
+    left: 100px;
     top: 120px;
 }
 
