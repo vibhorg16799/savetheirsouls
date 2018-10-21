@@ -23,7 +23,7 @@ ul {
     width: fit-content;
     list-style: none;
     cursor: pointer;
-    position: relative;
+    position: absolute;
     left: 550px;
     top: 120px;
 }
