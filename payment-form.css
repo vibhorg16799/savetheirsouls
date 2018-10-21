@@ -5,7 +5,10 @@ body {
   font-family: monospace, fantasy,'Helvetica Neue', Arial, sans-serif;
   width: fit-content;
 }
-
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
 h1 {
     margin: 0;
     margin-bottom: 2px;
